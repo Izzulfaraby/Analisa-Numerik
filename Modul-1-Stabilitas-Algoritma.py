@@ -1,4 +1,4 @@
-# Nilai sebenarnya
+# Hasil sebenarnya
 H_sebenarnya = 100001.0
 
 # Algoritma 1
@@ -22,9 +22,9 @@ for _ in range (100000):
   total += x_awal2
 total += x_selanjutnnya2
 # Cetak hasil
-print ("Nilai yang sebenarnya       :",H_sebenarnya)
+print ("Hasil sebenarnya            :",H_sebenarnya)
 print ("Hasil algoritma 1 adalah    :",x_awal1)
 print ("Hasil algoritma 2 adalah    :",total)
 print ("Galat algoritma 1           :",x_awal1-H_sebenarnya)
 print ("Galat algoritma 2           :",total-H_sebenarnya)
-print ("Perbedaan algoritma 1 dan 2           :",x_awal1-total)
+print ("Perbedaan algoritma 1 dan 2 :",x_awal1-total)
