@@ -1,5 +1,5 @@
 # Nilai sebenarnya
-N_sebenarnya = 100001.0
+H_sebenarnya = 100001.0
 
 # Algoritma 1
 #step 1: Input nilai awal adalah angka yang paling besar
@@ -22,9 +22,9 @@ for _ in range (100000):
   total += x_awal2
 total += x_selanjutnnya2
 # Cetak hasil
-print ("Nilai yang sebenarnya       :",N_sebenarnya)
+print ("Nilai yang sebenarnya       :",H_sebenarnya)
 print ("Hasil algoritma 1 adalah    :",x_awal1)
 print ("Hasil algoritma 2 adalah    :",total)
-print ("Galat Algoritma 1           :",x_awal1-N_sebenarnya)
-print ("Galat Algoritma 2           :",total-N_sebenarnya)
-print ("Perbedaan 1 dan 2           :",x_awal1-total)
+print ("Galat algoritma 1           :",x_awal1-H_sebenarnya)
+print ("Galat algoritma 2           :",total-H_sebenarnya)
+print ("Perbedaan algoritma 1 dan 2           :",x_awal1-total)
