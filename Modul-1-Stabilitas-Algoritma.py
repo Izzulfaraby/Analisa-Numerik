@@ -1,30 +1,30 @@
 # Hasil sebenarnya
 H_sebenarnya = 100001.0
 
-# Algoritma 1
+# Algoritma A
 #step 1: Input nilai awal adalah angka yang paling besar
-x_awal1 = 100000.0
+x_awalA = 100000.0
 #Step 2: input nilai selanjutnya adalah angka yang kecil
-x_selanjutnnya1 = 0.00001
+x_selanjutnnyaA = 0.00001
 # Step 3: Melakukan perulangan
 for _ in range (100000):
-  x_awal1 += x_selanjutnnya1
+  x_awalA += x_selanjutnnyaA
 # Cetak hasil
 
-# Algoritma 2
+# Algoritma B
 total = 0
 #step 1: Input nilai awal adalah angka yang paling kecil
-x_awal2  = 0.00001
+x_awalB  = 0.00001
 #Step 2: input nilai selanjutnya adalah angka yang besar
-x_selanjutnnya2 = 100000.0
+x_selanjutnnyaB = 100000.0
 # Step 3: Melakukan perulangan
 for _ in range (100000):
-  total += x_awal2
-total += x_selanjutnnya2
+  total += x_awalB
+total += x_selanjutnnyaB
 # Cetak hasil
 print ("Hasil sebenarnya            :",H_sebenarnya)
-print ("Hasil algoritma 1 adalah    :",x_awal1)
-print ("Hasil algoritma 2 adalah    :",total)
-print ("Galat algoritma 1           :",x_awal1-H_sebenarnya)
-print ("Galat algoritma 2           :",total-H_sebenarnya)
-print ("Perbedaan algoritma 1 dan 2 :",x_awal1-total)
+print ("Hasil algoritma A adalah    :",x_awalA)
+print ("Hasil algoritma B adalah    :",total)
+print ("Galat algoritma A           :",x_awalA-H_sebenarnya)
+print ("Galat algoritma B           :",total-H_sebenarnya)
+print ("Perbedaan algoritma A dan B  :",x_awalA-total)
